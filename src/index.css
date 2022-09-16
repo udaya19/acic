@@ -22,3 +22,18 @@
     }
   }
 
+.carousel .slide img{
+  height: 60%;
+}
+
+.thumbs{
+  display: none;
+}
+
+.control-arrow.control-prev,.control-arrow.control-next{
+  height: 60%;
+}
+
+ul.control-dots{
+  display: none;
+}
