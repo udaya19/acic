@@ -1,22 +1,24 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 import { events } from "../data";
 
-import { MdChevronLeft, MdChevronRight } from "react-icons/md";
+// import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
-import { AiOutlineCalendar } from "react-icons/ai";
+// import { AiOutlineCalendar } from "react-icons/ai";
 import { FiArrowRight } from "react-icons/fi";
 
 const Events = () => {
-  const [visibleSlide, setVisibleSlide] = useState(1);
-  const scrollLeft = () => {
-    setVisibleSlide(visibleSlide - 1);
-  };
+  // const [visibleSlide, setVisibleSlide] = useState(1);
+  // const scrollLeft = () => {
+  //   setVisibleSlide(visibleSlide - 1);
+  // };
 
-  const scrollRight = () => {
-    setVisibleSlide(visibleSlide + 1);
-  };
+  // const scrollRight = () => {
+  //   setVisibleSlide(visibleSlide + 1);
+  // };
   // {
   //   title: "Slide 1";
   //   content: () => (
@@ -73,7 +75,15 @@ const Events = () => {
           consequuntur saepe laborum.
         </p>
       </div>
-      <div className="relative flex items-center">
+      <Carousel className="carousel">
+        <div className="events">
+          <img src="https://source.unsplash.com/640x480/?1" alt="" />
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/640x480/?1" alt="" />
+        </div>
+      </Carousel>
+      {/* <div className="relative flex items-center">
         <MdChevronLeft
           className="opacity-50 cursor-pointer hover:opacity-100"
           size={40}
@@ -83,7 +93,7 @@ const Events = () => {
           className="opacity-50 cursor-pointer hover:opacity-100"
           size={40}
         />
-      </div>
+      </div> */}
 
       <div className="pb-4 pt-10 px-16 grid place-items-end">
         <Link to="/aboutus">

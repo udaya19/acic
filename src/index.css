@@ -37,3 +37,7 @@
 ul.control-dots{
   display: none;
 }
+
+.events img{
+  height: 50%;
+}
