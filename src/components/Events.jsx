@@ -75,11 +75,11 @@ const Events = () => {
           consequuntur saepe laborum.
         </p>
       </div>
-      <Carousel className="carousel">
-        <div className="events">
+      <Carousel autoPlay={true}>
+        <div className="h-5/6">
           <img src="https://source.unsplash.com/640x480/?1" alt="" />
         </div>
-        <div>
+        <div className="h-5/6">
           <img src="https://source.unsplash.com/640x480/?1" alt="" />
         </div>
       </Carousel>

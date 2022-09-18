@@ -15,7 +15,7 @@ const ApplyNow = () => {
               </span>
             </div>
             <a
-              href="/"
+              href="https://acicbmu.accubate.app/ext/form/544/1/apply"
               rel="noreferrer"
               className="px-5 mt-4 lg:mt-0 py-3 rounded-full bg-white text-black "
             >

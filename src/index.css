@@ -31,7 +31,7 @@
 }
 
 .control-arrow.control-prev,.control-arrow.control-next{
-  height: 60%;
+  height: 50%;
 }
 
 ul.control-dots{
@@ -40,4 +40,8 @@ ul.control-dots{
 
 .events img{
   height: 50%;
+}
+
+.carousel-root{
+  height: 500px;
 }

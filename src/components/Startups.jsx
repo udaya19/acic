@@ -23,7 +23,7 @@ const Startups = () => {
         </p>
       </div>
       <div
-        class="flex overflow-x-auto scroll-smooth scrollbar-hide"
+        class="flex overflow-x-auto scroll-smooth scrollbar-hide overflow-auto overscroll-auto ..."
         id="flavoursContainer"
       >
         <div class="flex flex-nowrap py-6 gap-12 lg:ml-20 md:ml-20 ml-10">
@@ -38,15 +38,12 @@ const Startups = () => {
                         class="w-full"
                         alt={member.name}
                       />
-
                       <p class="mt-4 text-xl font-bold sm:text-2xl">
                         {member.name}
                       </p>
                     </div>
-
                     <div class="absolute opacity-0 lg:group-hover:opacity-100 lg:group-hover:relative">
                       <p class="text-2xl font-bold">{member.name}</p>
-
                       <p class="mt-4 text-lg font-medium leading-relaxed">
                         <button
                           className="bg-orange-500 text-white text-sm px-4 py-2 rounded-full hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"

@@ -51,7 +51,7 @@ const Hero = () => {
       <div className="w-full">
         <div ref={slideRef} className="w-full h-3/6 relative select-none">
           <div className="aspect-w-16 aspect-h-9">
-            <Carousel>
+            <Carousel autoPlay={true}>
               {heroData.map((item) => (
                 <img src={item.src} alt={item.alt} />
               ))}
